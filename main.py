@@ -15,5 +15,6 @@ def get_info():
     }
     return jsonify(response), 200
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)  # Allows external access when deployed
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)  # Allows external access when deployed
 
