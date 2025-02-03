@@ -1,6 +1,7 @@
+import re
 from flask import Flask, jsonify
 from datetime import datetime
-import re
+
 
 app = Flask(__name__)
 
