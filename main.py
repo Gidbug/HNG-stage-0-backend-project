@@ -16,7 +16,7 @@ def home():
         return jsonify({"error": "Invalid email format"}), 400
 
     return jsonify({
-        "email": "oyerindegideon001@gmail.com",
+        "email": "oyerindegideon01@gmail.com",
         "current_datetime": datetime.utcnow().isoformat(),
         "github_url": "https://github.com/Gidbug/HNG-stage-0-backend-project"
     })
