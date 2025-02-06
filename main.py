@@ -13,6 +13,7 @@ def is_valid_email(email):
 @app.route("/")
 def home():
     email = "oyerindegideon01@gmail.com"
+    current_datetime = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     
     if not is_valid_email(email):
         return jsonify({"error": "Invalid email format"}), 400
@@ -20,7 +21,7 @@ def home():
     return jsonify({
         
   "email": "oyerindegideon01@gmail.com",
-  "current_datetime": "2025-01-30T09:30:00",
+  "current_datetime": current_datetime,
   "github_url": "https://github.com/Gidbug/HNG-stage-0-backend-project"
     })
 
