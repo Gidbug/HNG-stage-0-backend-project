@@ -10,7 +10,7 @@ def is_valid_email(email):
 
 @app.route("/")
 def home():
-    email = "oyerindegideon001@gmail.com"
+    email = "oyerindegideon01@gmail.com"
     
     if not is_valid_email(email):
         return jsonify({"error": "Invalid email format"}), 400
