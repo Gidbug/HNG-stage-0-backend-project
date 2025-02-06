@@ -19,7 +19,7 @@ def home():
         {
   "email": "oyerindegideon01@gmail.com",
   "current_datetime": "2025-01-30T09:30:00",
-  "github_url": "<https://github.com/Gidbug/HNG-stage-0-backend-project>"
+  "github_url": "https://github.com/Gidbug/HNG-stage-0-backend-proje"
 }
     })
 
